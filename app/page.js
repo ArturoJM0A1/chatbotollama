@@ -31,7 +31,7 @@ export default function Home() {
       } else {
         setMessages((prev) => [
           ...prev,
-          { role: "assistant", content: "⚠️ Error al conectar." },
+          { role: "assistant", content: "⚠️ Ollama no está respondiendo. Asegúrate de que:\n• Ollama esté ejecutándose localmente (ollama serve)\n• Tengas un modelo descargado (ej: ollama run mistral)\n• La API esté disponible en http://localhost:11434"},
         ]);
       }
     } catch {
