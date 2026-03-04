@@ -377,13 +377,6 @@ mi-app-ollama/
   ```
 - **El modelo no está descargado**: Ejecuta `ollama pull llama3.2:1b`.
 
-## 📌 Mejoras posibles
-
-- Implementar streaming de respuestas para una experiencia más fluida.
-- Guardar el historial en `localStorage`.
-- Añadir selección de modelos disponibles.
-- Mejorar el diseño con más componentes.
-
 ## 📄 Licencia
 
 Este proyecto es de uso libre y educativo. Si lo utilizas, agradecería una mención.
