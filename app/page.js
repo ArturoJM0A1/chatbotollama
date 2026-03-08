@@ -18,7 +18,8 @@ export default function Home() {
 
     try {
       const res = await fetch("/api/chat", {
-        method: "POST",
+        method: "POST", //Aqui se manda el mensaje del usuario al endpoint de la API que se encargará de comunicarse con Ollama
+        
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ prompt: input }),
       });

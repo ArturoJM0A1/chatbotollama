@@ -1,0 +1,38 @@
+Qué hace route.js
+
+Un archivo route.js define cómo responde una ruta a peticiones HTTP.
+
+Ejemplo de estructura:
+
+app
+ ├ api
+ │   └ chat
+ │       └ route.js
+
+
+La URL sería:
+
+http://localhost:3000/api/chat
+
+
+
+
+
+
+
+
+Usuario escribe prompt
+        ↓
+Frontend Next.js
+        ↓
+POST /api/ai
+        ↓
+Esta API
+        ↓
+Ollama localhost:11434
+        ↓
+Modelo llama3
+        ↓
+Respuesta
+        ↓
+Frontend

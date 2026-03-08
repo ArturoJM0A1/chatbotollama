@@ -15,3 +15,7 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
+//En Next.js, layout.js se usa para definir la estructura compartida de varias páginas. Es como un contenedor principal donde colocas elementos que se repiten en muchas páginas, por ejemplo:
+//Qué es children
+//children representa la página actua
